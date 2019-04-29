@@ -15,6 +15,7 @@ import { LoginPage } from '../pages/login/login';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { FileChooser } from '@ionic-native/file-chooser';
 import { FileTransfer } from '@ionic-native/file-transfer';
+import { Contacts } from '@ionic-native/contacts';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { FileTransfer } from '@ionic-native/file-transfer';
     AndroidPermissions,
     FileChooser,
     FileTransfer,
+    Contacts,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ApiProvider,
     LoaderServiceProvider
